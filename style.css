@@ -1,0 +1,607 @@
+/* * {
+  border: 1.5px solid black;
+} */
+p,
+label,
+li,
+.text h3 {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(114, 115, 134);
+}
+div {
+  font-family: "Gill Sans", sans-serif;
+}
+body {
+  background-color: rgb(247, 247, 247);
+  margin-left: 40px;
+}
+.fscreen {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 3px 5px;
+}
+.logo {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.elogo {
+  display: flex;
+  /* margin-top: 18px; */
+  width: 38px;
+  height: 38px;
+  background: #f77e53;
+  color: white;
+  border-radius: 19px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.edu {
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+}
+.menu {
+  display: flex;
+
+  justify-content: space-around;
+  width: calc(30%);
+  align-items: center;
+}
+h4 {
+  font-family: Impact, Haettenschweiler, "inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  letter-spacing: -0.01em;
+}
+.signin {
+  display: flex;
+  background-color: skyblue;
+  width: 125px;
+  height: 40px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(89, 89, 219);
+  border: 0.2px solid rgb(89, 89, 219);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.menuc {
+  font-family: "Inter";
+  font-size: 20px;
+}
+.menuc:hover,
+.signin:hover {
+  font-weight: 600;
+}
+.second {
+  padding-top: 50px;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.get_started {
+  display: flex;
+  border-radius: 20px;
+  width: 200px;
+  justify-content: center;
+  height: 62px;
+  align-items: center;
+  background-color: #f77e53;
+  color: white;
+  font-size: 22px;
+}
+.seconds.text {
+  /* portrait-cheerful-young-man-smiling-pointing-finger-up-removebg-preview */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 400px;
+}
+
+.seconds.image {
+  display: flex;
+  width: 50%;
+  height: 560px;
+  flex-wrap: nowrap;
+  background-image: url(man_potrait.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 452px;
+
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+
+  height: 50%;
+}
+.bottom {
+  padding-top: 100px;
+  margin-left: -90px;
+  display: flex;
+
+  height: 50%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.imglogo {
+  display: flex;
+  width: 10px;
+  height: 100%;
+}
+
+.graduation {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+}
+.graduation-counter {
+  display: flex;
+  max-width: 250px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.counting {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.award {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: orange;
+  justify-content: center;
+  align-items: center;
+}
+.blue-ball {
+  width: 20px;
+  height: 20px;
+  background-color: sky rgb(57, 174, 183);
+  border-radius: 10px;
+}
+.bensic {
+  padding: 2px;
+  margin: 5px;
+  gap: 15px;
+  font-size: 9px;
+}
+.bensic div {
+  font-family: "Gill Sans", sans-serif;
+}
+.t-counts {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-content: space-around;
+  padding: 5px 15px;
+}
+.university-logos {
+  margin: 40px;
+  align-items: center;
+  display: flex;
+}
+.university-logos .text {
+  width: 200px;
+}
+.university-logos .logos {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin-left: 28px;
+}
+
+.univ {
+  width: 20%;
+  height: 53px;
+}
+.school {
+  display: flex;
+}
+/* online School features */
+.school .feature {
+  display: flex;
+}
+.school .text {
+  width: 100%;
+}
+.row1,
+.row2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.row1 p,
+.row2 p {
+  margin-top: 0px;
+}
+.virtual,
+.online,
+.social,
+.meaningful {
+  display: flex;
+  flex-direction: column;
+}
+
+.logov {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background: #d2f1e1;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.row2 {
+  display: flex;
+}
+
+/* cources shopping tab */
+.schoolc-shopping {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+.schoolc-shopping .header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.schoolc-shopping .header h1,
+h3 {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.view-all-cources {
+  display: flex;
+  border: 2px solid #2076ff;
+  color: #2076ff;
+  font-size: 18;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 60px;
+  margin-right: 40px;
+}
+.view-all-cources:hover {
+  background-color: #2076ff;
+  color: white;
+}
+.cources {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.cource {
+  display: flex;
+  width: 270px;
+  padding: 5px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.cource:first-child {
+  margin-left: -90px;
+}
+.cource img {
+  width: 240px;
+  height: 165px;
+  align-self: center;
+}
+.cource .logo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.cart {
+  display: flex;
+  width: 240px;
+  height: 40px;
+  align-self: center;
+  border: 1.5px solid #2076ff;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+}
+.cart:hover {
+  color: white;
+  background-color: #2076ff;
+  content: "add to cart";
+}
+.transform {
+  display: flex;
+  margin-bottom: 100px;
+}
+.transform .text {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  /* border: 1.5px solid #2076ff; */
+  gap: 10px;
+}
+.transform .text p {
+  max-width: 447px;
+}
+.transform .video {
+  display: flex;
+
+  background-color: #f6f5fa;
+}
+h2 {
+  font-family: "Gill Sans", sans-serif;
+  max-width: 476px;
+}
+.transform h2 {
+  font-size: 44;
+}
+.transform img {
+  width: 530px;
+  height: 360px;
+}
+
+.arrows i {
+  width: 30px;
+}
+.life {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.life .header {
+  display: flex;
+  width: 90%;
+}
+.reviews {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.review h2 {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(114, 115, 134);
+  font-size: 22px;
+}
+.profile {
+  display: flex;
+  gap: 15px;
+}
+.review p {
+  width: 449px;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+.profile-info * {
+  margin: 0;
+}
+.subscription {
+  margin-bottom: 100px;
+}
+.plans {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.plan {
+  display: flex;
+  width: 305px;
+  flex-direction: column;
+  border-radius: 20px 20px 0px 0px;
+}
+.plan.r {
+  background-color: #f3f8ff;
+}
+.plan.m {
+  background-color: #f8f6ef;
+}
+.plan.p {
+  background-color: #faf0ee;
+}
+.planMode {
+  display: flex;
+
+  height: 100px;
+  border-radius: 20px 20px 0px 0px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 38px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.plans .r .planMode {
+  background-color: #2076ff;
+}
+.plans .m .planMode {
+  background-color: rgb(246, 192, 122);
+}
+.plans .p .planMode {
+  background-color: #f77e53;
+}
+ul {
+  list-style: none;
+}
+
+.regList li::before {
+  content: "\2022";
+  color: blue;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 1em;
+  margin-bottom: 25px;
+}
+.medList li::before {
+  content: "\2022";
+  color: rgb(246, 192, 122);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 1em;
+  margin-bottom: 25px;
+}
+.priList li::before {
+  content: "\2022";
+  color: #f77e53;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 1em;
+  margin-bottom: 25px;
+}
+.buy {
+  display: flex;
+  width: 260px;
+  height: 70px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  align-self: center;
+}
+.r .buy {
+  border: 2px solid rgb(132, 180, 255);
+  color: rgb(132, 180, 255);
+}
+.r .buy:hover {
+  background-color: rgb(132, 180, 255);
+  color: white;
+}
+.m .buy {
+  border: 2px solid rgb(246, 192, 122);
+  color: rgb(246, 192, 122);
+}
+.m .buy:hover {
+  background-color: rgb(246, 192, 122);
+  color: white;
+}
+.p .buy {
+  border: 2px solid #f77e53;
+  color: #f77e53;
+}
+.p .buy:hover {
+  background-color: #f77e53;
+  color: white;
+}
+.end-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.end-footer .end-logo {
+  display: flex;
+  flex-direction: column;
+}
+.end-footer .about {
+  display: flex;
+  flex-direction: column;
+}
+.end-footer p {
+  margin: 10px 0px;
+}
+.end-footer .support {
+  display: flex;
+  flex-direction: column;
+}
+.end-footer .get {
+  display: flex;
+  flex-direction: column;
+}
+.playstore {
+  border: 2px solid rgb(114, 115, 134);
+  display: flex;
+  height: 40px;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.playstore .text {
+  display: flex;
+  flex-direction: column;
+}
+.apple {
+  border: 2px solid rgb(114, 115, 134);
+  display: flex;
+  height: 40px;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.end-footer p:hover {
+  color: black;
+}
+@media only screen and (max-width: 900px) {
+  * {
+    flex-direction: column;
+    align-self: center;
+    margin-left: 10px;
+  }
+  .review p {
+    width: 100%;
+  }
+  .menu {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .logos img {
+    width: fit-content;
+    align-self: center;
+    padding: 15px 0px;
+  }
+  body {
+    margin-left: 15px;
+  }
+  .cource:first-child {
+    margin-left: 10px;
+  }
+  .plan {
+    margin: 10px 0px;
+  }
+  .planMode {
+    width: 100%;
+  }
+  .cource {
+    margin: 20px 0px;
+  }
+  .logo-text {
+    gap: 30px;
+  }
+}
